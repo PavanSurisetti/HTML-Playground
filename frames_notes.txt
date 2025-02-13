@@ -1,0 +1,28 @@
+       Frames
+------------------------
+Frames in HTML were used to split the browser window into multiple sections (or "frames"),
+each of which could display a separate HTML document.
+This allowed multiple web pages to be shown simultaneously within a single browser window.
+Main HTML Elements for Frames:
+<frameset>:
+
+The <frameset> element is used to define a set of frames.
+It replaced the <body> element for the layout of the page.
+Inside a <frameset>, you can use <frame> tags to specify the content that each frame will show.
+<frame>:
+
+This element is used inside the <frameset> to specify the content that each frame will display.
+It can load an external web page or a local HTML document in the frame.
+<noframes>:
+
+The <noframes> tag is used to provide alternative content for browsers that don't support frames.
+This tag is usually placed inside the <frameset> tag.
+
+Attributes for <frame> Element:
+Here are some common attributes used with the <frame> tag:
+
+src: Specifies the URL of the document that the frame will display.
+name: Specifies a name for the frame. This can be used when linking to the frame from other parts of the webpage.
+width and height: Specifies the dimensions of the frame.
+scrolling: Defines if the frame should allow scrolling (values: yes, no, auto).
+border: Sets the thickness of the border around the frame (can be 0 for no border).
