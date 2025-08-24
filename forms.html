@@ -1,0 +1,80 @@
+<html>
+    <head>
+        <title>
+            Forms
+        </title>
+    </head>
+    <body>
+        <h1 align="center">Forms</h1>
+        <hr>
+        <form action="something.php" method="post">
+            <div>
+                 <label for="name">Name:</label>
+                 <input type="text" id="name" name="Name" placeholder="Enter Your Name">
+            </div>
+            <BR>
+            <div>
+                <label for="DOB">DOB: </label>
+                <input type="date" id="DOB" placeholder="Enter your DOB" name="DOB">
+            </div>
+            <br>
+            <div>
+                <label for="tel">Phone No:</label>
+                <input type="tel" id="phone" name="phone number" placeholder="phone number">
+            </div>
+            <br>
+            <div>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" placeholder="mail@gmail.com" required>
+            </div>
+            <br>
+            <div>
+                <label for="mess">Message:</label>
+                <input type="text" id="mess" placeholder="Enter your Message">
+            </div>
+            <br>
+            <div>
+                <label >Gender:</label>
+                 <input type="radio" id="male" name="gender">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender">
+                <label for="female">Female</label>
+            </div>
+            <br>
+            <DIV>
+                <label for="Password">Password:</label>
+                <input id="Password" type="password" name="password" placeholder="keep a strong password">
+            </DIV>
+            <br>
+            <div>
+                <label name="subjects">Select your current Subjects:</label>
+                <br>               
+                 <input type="checkbox" id="op1">
+                <label for="op1">DMGT</label>
+                <br>
+                <input type="checkbox" id="op2">
+                <label for="op2">OOPTJ</label>
+                <br>
+                <input type="checkbox" id="op3">
+                <label for="op3">DBMS</label>
+               
+                <br>
+                <input type="checkbox" id="op4">
+                <label for="op4">OS</label>
+            </div>
+            <br>
+            <div>
+                <label for="lang">Language:</label>
+                <select name="Language" id="lang">
+                    <option value="Telugu">Tel</option>
+                    <option value="English">Eng</option>
+                    <option value="Hindi">Hin</option>
+                </select>
+            </div>
+           <input type="submit">
+           <br>
+           <br>
+           <input type="reset">
+        </form>
+    </body>
+</html>
